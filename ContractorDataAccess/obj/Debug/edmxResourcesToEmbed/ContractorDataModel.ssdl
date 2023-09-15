@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mydbkrModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="mst_Contractor">
+    <Key>
+      <PropertyRef Name="Contractor_Id" />
+    </Key>
+    <Property Name="Contractor_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PAN" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="TIN" Type="varchar" MaxLength="50" />
+    <Property Name="Ref_Role_Id" Type="tinyint" Nullable="false" />
+    <Property Name="Contractor_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contractor_Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contractor_Bldg" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contractor_Street" Type="varchar" MaxLength="400" />
+    <Property Name="Contractor_Area" Type="varchar" MaxLength="400" />
+    <Property Name="Contractor_Zipcode" Type="int" Nullable="false" />
+    <Property Name="Contractor_CIty" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Contractor_State_Id" Type="tinyint" Nullable="false" />
+    <Property Name="Contractor_Country_Id" Type="tinyint" Nullable="false" />
+    <Property Name="Contractor_Mobile" Type="bigint" Nullable="false" />
+    <Property Name="Contractor_Mobile_Verification" Type="bit" Nullable="false" />
+    <Property Name="Contractor_Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contractor_Email_Verification" Type="bit" Nullable="false" />
+    <Property Name="Contractor_Active" Type="bit" Nullable="false" />
+    <Property Name="Contractor_Created_By" Type="tinyint" Nullable="false" />
+    <Property Name="Contractor_Created_Date" Type="smalldatetime" Nullable="false" />
+    <Property Name="EPROC_No" Type="varchar" MaxLength="50" />
+    <Property Name="Mobile_OTP" Type="varchar" MaxLength="50" />
+    <Property Name="Tally_Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="mydbkrModelStoreContainer">
+    <EntitySet Name="mst_Contractor" EntityType="Self.mst_Contractor" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

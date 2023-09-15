@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mydbkrModelStoreContainer" CdmEntityContainer="mydbkrEntities">
+    <EntitySetMapping Name="mst_Contractor">
+      <EntityTypeMapping TypeName="mydbkrModel.mst_Contractor">
+        <MappingFragment StoreEntitySet="mst_Contractor">
+          <ScalarProperty Name="Contractor_Id" ColumnName="Contractor_Id" />
+          <ScalarProperty Name="PAN" ColumnName="PAN" />
+          <ScalarProperty Name="TIN" ColumnName="TIN" />
+          <ScalarProperty Name="Ref_Role_Id" ColumnName="Ref_Role_Id" />
+          <ScalarProperty Name="Contractor_Name" ColumnName="Contractor_Name" />
+          <ScalarProperty Name="Contractor_Password" ColumnName="Contractor_Password" />
+          <ScalarProperty Name="Contractor_Bldg" ColumnName="Contractor_Bldg" />
+          <ScalarProperty Name="Contractor_Street" ColumnName="Contractor_Street" />
+          <ScalarProperty Name="Contractor_Area" ColumnName="Contractor_Area" />
+          <ScalarProperty Name="Contractor_Zipcode" ColumnName="Contractor_Zipcode" />
+          <ScalarProperty Name="Contractor_CIty" ColumnName="Contractor_CIty" />
+          <ScalarProperty Name="Contractor_State_Id" ColumnName="Contractor_State_Id" />
+          <ScalarProperty Name="Contractor_Country_Id" ColumnName="Contractor_Country_Id" />
+          <ScalarProperty Name="Contractor_Mobile" ColumnName="Contractor_Mobile" />
+          <ScalarProperty Name="Contractor_Mobile_Verification" ColumnName="Contractor_Mobile_Verification" />
+          <ScalarProperty Name="Contractor_Email" ColumnName="Contractor_Email" />
+          <ScalarProperty Name="Contractor_Email_Verification" ColumnName="Contractor_Email_Verification" />
+          <ScalarProperty Name="Contractor_Active" ColumnName="Contractor_Active" />
+          <ScalarProperty Name="Contractor_Created_By" ColumnName="Contractor_Created_By" />
+          <ScalarProperty Name="Contractor_Created_Date" ColumnName="Contractor_Created_Date" />
+          <ScalarProperty Name="EPROC_No" ColumnName="EPROC_No" />
+          <ScalarProperty Name="Mobile_OTP" ColumnName="Mobile_OTP" />
+          <ScalarProperty Name="Tally_Status" ColumnName="Tally_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

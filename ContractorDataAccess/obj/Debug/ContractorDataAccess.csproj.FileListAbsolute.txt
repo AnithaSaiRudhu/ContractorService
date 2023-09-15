@@ -1,0 +1,12 @@
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\ContractorDataAccess.dll.config
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\ContractorDataAccess.dll
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\ContractorDataAccess.pdb
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\obj\Debug\ContractorDataAccess.csprojAssemblyReference.cache
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\obj\Debug\ContractorDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\obj\Debug\ContractorDataAccess.csproj.CopyComplete
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\obj\Debug\ContractorDataAccess.dll
+C:\Users\vinot\source\repos\contractAPI\ContractorDataAccess\obj\Debug\ContractorDataAccess.pdb
