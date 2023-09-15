@@ -21,18 +21,20 @@ namespace ContractorDetailsService.Controllers
 
         public HttpResponseMessage Get(string tallyID = "0")
         {
+            bool tallyStatus = false;
             using (mydbkrEntities entities = new mydbkrEntities())
-            {
-
-                bool tallyStatus = tallyID == "0" ? false : true;
+            {               
+                tallyStatus = tallyID == "0" ? false : true;                 
                 var entity = entities.mst_Contractor.Where(e => e.Tally_Status == tallyStatus).Select(e => e.Contractor_Name).ToList();
                 if (entity == null)
                 {
-                    return Request.CreateErrorResponse(HttpStatusCode.NotFound, "tallyId not found");
+                    return Request.CreateErrorResponse(HttpStatusCode.NotFound, "tallyStatus not found");
                 }
                 else
-                {                    
-                    return Request.CreateResponse(HttpStatusCode.OK, entity);
+                {
+                    var response = Request.CreateResponse(HttpStatusCode.OK);
+                    response.Content = new StringContent(JsonConvert.SerializeObject(entity), System.Text.Encoding.UTF8, "application/json");
+                    return response;                    
                 }
 
             }
